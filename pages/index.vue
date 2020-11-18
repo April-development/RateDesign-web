@@ -1,5 +1,7 @@
 <template>
-  <div><Button>Жми меня</Button></div>
+  <div>
+    <nuxt-link to="/admin"><Button>Жми меня</Button></nuxt-link>
+  </div>
 </template>
 
 <script lang="ts">
